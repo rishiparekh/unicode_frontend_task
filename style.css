@@ -1,0 +1,162 @@
+/****************************************
+*  FRONT END ASSIGNMENT
+*  AUTHOR: RISHI PAREKH
+*
+* TASK 1
+***********************************/
+
+
+
+
+
+*{
+ marigin: 0px;
+ padding: 0px;
+
+
+}
+
+body{
+  background: black;
+  background: -webkit-linear-gradient(135deg,	#ff0022,#014c82 ) ;
+  background-size: 400% 400%;
+  animation: BackgroundGradient 15s ease infinite;
+
+}
+
+@keyframes BackgroundGradient{
+
+  0%{background-position: 0% 0%;}
+  50%{background-position:50% 50%;}
+  100%{background-position: 0% 0%;}
+}
+#profile{
+
+  width:400px;
+  height: 300px;
+  padding: 30px;
+  background: #fff;
+  border:2px solid black;
+  margin:  auto;
+  border-radius: 20px;
+  position:relative;
+  
+
+}
+#profile section{
+font-family: 'Quattrocento Sans', sans-serif;
+font-weight: lighter;
+
+  position: absolute;
+  text-align: left;
+  top: 10%;
+  left: 40%;
+  display:inline-block;
+  line-height: 2px;
+}
+#profile img{
+  width:35%;
+  height: 40%;
+  border: 1px solid black;
+  position: absolute;
+  left:10px;
+  top:20px;
+  border-radius:15%;
+  
+}
+
+
+
+
+#profile ul{
+  position: absolute;
+  top: 60%;
+}
+.media{
+
+position: absolute;
+
+
+
+}
+
+.media li{
+
+list-style: none;
+display: inline-block;
+margin: 5px;
+font-size: 20px;
+padding: 20 20px;
+color: #fff;
+border: 1px solid black ;
+border-radius: 50%;
+transition: .3s;
+text-align: center;
+
+
+
+}
+
+ .media li:nth-child(2):hover{
+
+
+  color: #3b5998;
+  border: 3px solid #3b5998;
+  transition: .3s;
+}
+
+
+.media li:nth-child(3):hover{
+
+
+  color: #e1306c;
+  border: 3px solid #e1306c;
+  transition: .3s;
+}
+
+
+
+
+
+#edit{
+
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  position: relative;
+  
+  background: #fff;
+  margin: 10% auto 0px;
+  display: flexbox;
+  border: 2px solid black;
+
+  
+
+}
+#profile #button{
+
+  position: absolute;
+  top:10%;
+  left:90%;
+  color: black;
+  font-size: 10px;
+  list-style: none;
+}
+#edit a{
+  padding: 3px;
+  background: black;
+  color: #fff;
+  font-family: 'Quattrocento Sans', sans-serif;
+  transition: 0.3s;
+   
+}
+
+
+#edit a:hover{
+
+  color: blue;
+  transition: 0.3;
+  border: 2px solid blue;
+}
+
